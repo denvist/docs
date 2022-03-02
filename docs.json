@@ -2,5 +2,11 @@
   "name": "Test Project",
   "theme": "#ab47bc",
   "favicon": "/assets/favicon.ico",
-  "logo": "https://static.invertase.io/assets/docs.page/docs-page-logo.png"
+  "logo": "https://static.invertase.io/assets/docs.page/docs-page-logo.png",
+  {
+    "navigation": [
+      ["Example", "/example"],
+      ["External", "https://google.com"]
+    ]
+  }
 }
