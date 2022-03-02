@@ -5,15 +5,16 @@
   "logo": "https://static.invertase.io/assets/docs.page/docs-page-logo.png",
   "navigation": [
     ["Example", "/example"],
-    ["External", "https://google.com"],
+    ["External", "https://google.com"]
+  ],
+  "sidebar": [
+    ["Another page", "/another"],
     [
       "Expandable",
       [
-        ["Nested Example", "/example-nested"]
+        ["Nested Example", "/example-nested"],
+        ["Nested Expandable", [["Nested x2 Example", "/example-nested-x2"]]]
       ]
     ]
-  ],
-  "sidebar": [
-    ["Another page", "/another"]
   ]
 }
